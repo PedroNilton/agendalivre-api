@@ -5,5 +5,6 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface ServicoRepository {
+    Servico salvar(Servico servico);
     Optional<Servico> buscarPorId(UUID id);
 }

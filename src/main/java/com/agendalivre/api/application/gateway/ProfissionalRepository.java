@@ -5,5 +5,6 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface ProfissionalRepository {
+    Profissional salvar(Profissional profissional);
     Optional<Profissional> buscarPorId(UUID id);
 }
