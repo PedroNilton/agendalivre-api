@@ -1,4 +1,4 @@
-# AgendaLivre API 📅✂️
+# AgendaLivre API 
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
@@ -9,7 +9,7 @@ O **AgendaLivre** é um sistema de agendamento inteligente construído no format
 
 Este projeto foi construído focando em boas práticas de Engenharia de Software, aplicando rigorosamente os princípios da **Clean Architecture** (Arquitetura Limpa), separando as regras de negócio de frameworks e banco de dados.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 A stack tecnológica foi escolhida visando o padrão corporativo (Enterprise) de desenvolvimento backend:
 
@@ -21,7 +21,7 @@ A stack tecnológica foi escolhida visando o padrão corporativo (Enterprise) de
 - **Lombok** (Redução de Boilerplate)
 - **Jakarta Validation** (Validação de DTOs)
 
-## 🏗️ Arquitetura (Clean Architecture)
+##  Arquitetura (Clean Architecture)
 
 O código foi meticulosamente desenhado para não depender do Spring Boot em seu núcleo (Domain). As camadas estão divididas em:
 
@@ -30,7 +30,7 @@ O código foi meticulosamente desenhado para não depender do Spring Boot em seu
 3. **Infrastructure (`infrastructure`)**: Detalhes de implementação, como Entidades JPA (`@Entity`), Spring Data Repositories e configuração de Banco de Dados.
 4. **Presentation (`presentation`)**: Controllers REST (`@RestController`) e DTOs, além de tratamento global de erros (`GlobalExceptionHandler`).
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 - ✅ Cadastro de Profissionais e Clientes
 - ✅ Cadastro de Serviços com duração e preço
@@ -38,7 +38,7 @@ O código foi meticulosamente desenhado para não depender do Spring Boot em seu
 - ✅ **Controle de Concorrência:** O algoritmo valida cruzamentos de horários para impedir que dois clientes marquem serviços que coincidam no tempo para o mesmo profissional.
 - ✅ Tratamento Global de Exceções (ControllerAdvice) retornando JSONs amigáveis em erros de negócio.
 
-## 📦 Como rodar o projeto localmente
+##  Como rodar o projeto localmente
 
 1. Certifique-se de ter o **Java 17** e o **Maven** instalados em sua máquina.
 2. Clone este repositório:
@@ -56,7 +56,7 @@ O código foi meticulosamente desenhado para não depender do Spring Boot em seu
 5. A API estará rodando em `http://localhost:8080`.
 6. Você pode acessar o banco de dados em memória (H2 Console) em `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:agendalivredb`, User: `sa`, Password: *em branco*).
 
-## 🔗 Endpoints Principais
+##  Endpoints Principais
 
 A API responde no path `/api/v1`. 
 
