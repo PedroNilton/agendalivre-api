@@ -11,7 +11,9 @@ import com.agendalivre.api.domain.exception.RegraNegocioException;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AgendarHorarioUseCase {
 
     private final AgendamentoRepository agendamentoRepository;
