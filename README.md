@@ -32,11 +32,11 @@ O código foi meticulosamente desenhado para não depender do Spring Boot em seu
 
 ##  Funcionalidades
 
-- ✅ Cadastro de Profissionais e Clientes
-- ✅ Cadastro de Serviços com duração e preço
-- ✅ Sistema de Agendamento Inteligente
-- ✅ **Controle de Concorrência:** O algoritmo valida cruzamentos de horários para impedir que dois clientes marquem serviços que coincidam no tempo para o mesmo profissional.
-- ✅ Tratamento Global de Exceções (ControllerAdvice) retornando JSONs amigáveis em erros de negócio.
+-  Cadastro de Profissionais e Clientes
+-  Cadastro de Serviços com duração e preço
+-  Sistema de Agendamento Inteligente
+-  **Controle de Concorrência:** O algoritmo valida cruzamentos de horários para impedir que dois clientes marquem serviços que coincidam no tempo para o mesmo profissional.
+-  Tratamento Global de Exceções (ControllerAdvice) retornando JSONs amigáveis em erros de negócio.
 
 ##  Como rodar o projeto localmente
 
